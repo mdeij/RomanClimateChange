@@ -1,7 +1,7 @@
 # Using Simulation to Understand the Influence of Climate Instability on Grape and Wheat Yields in the Roman Empire
 
 ## Overview
-This project aims to analyze how crop yields of landrace spring wheat and wine grapes were affected by changing climate conditions, specifically the shift from the Roman Climate Optimum to a cooler and more variable climate in the transitional period and later in the Late Antique Little Ice Age. We are specifically interested in crop yields during the transition from the Roman Empire's expansion to its later decline, by examining the impact of climate variability on agricultural productivity in the Roman Empire.
+This project aims to analyze how crop yields of landrace winter wheat and wine grapes were affected by changing climate conditions, specifically the shift from the Roman Climate Optimum to a cooler and more variable climate in the transitional period and later in the Late Antique Little Ice Age. We are specifically interested in crop yields during the transition from the Roman Empire's expansion to its later decline, by examining the impact of climate variability on agricultural productivity in the Roman Empire.
 
 ## Usage
 1. Clone this repository to your local machine.
