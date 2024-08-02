@@ -156,6 +156,45 @@ library(readr)
 library(stringr)
 library(ggplot2)
 
+
+
+
+#### Create folder structure ####
+# List of folders to create
+folders <- c(
+  "LINTUL2/Results",
+  "LINTUL2/Resultscolder",
+  "LINTUL2/Resultsdummy",
+  "LINTUL2/Weather",
+  "LINTUL2/Weathercolder",
+  "LINTUL2/Weatherdummy",
+  "data/output/plots",
+  "data/output/z_value stats",
+  "data/source/modern climate",
+  "data/temp/colder yearly files",
+  "data/temp/dummy data",
+  "data/temp/wheat yields",
+  "data/temp/yearly files"
+)
+
+# Function to create folders
+create_folders <- function(folders) {
+  for (folder in folders) {
+    if (!dir.exists(folder)) {
+      dir.create(folder, recursive = TRUE)
+      cat("Created folder:", folder, "\n")
+    } else {
+      cat("Folder already exists:", folder, "\n")
+    }
+  }
+}
+
+# Create the folders
+create_folders(folders)
+
+
+
+
 #### Split into yearly files ####
 # Source the script that splits the created data into yearly files, to be used in both models
 source("src/2a_split_files.R")
