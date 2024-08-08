@@ -1,5 +1,5 @@
 run_simulation_breadwheat_1899 <- function(station_number) {
-  print("The LINTUL2 model takes about 20 minutes to run for three locations")
+  print("Running part of the LINTUL2 model for wheat locations 1, 2 and 3. This part creates output for the years 1850 - 1899. Running can take up to 10 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -44,7 +44,7 @@ run_simulation_breadwheat_1899 <- function(station_number) {
 
 
 run_simulation_breadwheat_1905 <- function(station_number) {
-  print("The LINTUL2 model takes about 20 minutes to run for three locations")
+  print("Running part of the LINTUL2 model for wheat locations 1, 2 and 3. This part creates output for the years 1900 - 1905. Running can take up to 3 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -90,7 +90,7 @@ run_simulation_breadwheat_1905 <- function(station_number) {
 
 
 run_simulation_breadwheat_2013 <- function(station_number) {
-  print("The LINTUL2 model takes about 20 minutes to run for three locations")
+  print("Running part of the LINTUL2 model for wheat locations 1, 2 and 3. This part creates output for the years 1906 - 2013. Running can take up to 15 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -136,7 +136,7 @@ run_simulation_breadwheat_2013 <- function(station_number) {
 
 
 run_simulation_durum <- function(station_number) {
-  print("The LINTUL2 model takes about 15 minutes to run for two locations")
+  print("Running the LINTUL2 model for durum (locations 4 and 5). This part creates output for the years 1850 - 2014. Running can take up to 15 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -182,7 +182,7 @@ run_simulation_durum <- function(station_number) {
 
 #### Colder years #####
 run_simulation_breadwheat_1899_colder <- function(station_number) {
-  print("The LINTUL2 model takes about 20 minutes to run for three locations")
+  print("Running part of the LINTUL2 model for the colder years of wheat locations 1, 2 and 3. This part creates output for the years 1850 - 1899. Running can take up to 10 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -227,7 +227,7 @@ run_simulation_breadwheat_1899_colder <- function(station_number) {
 
 
 run_simulation_breadwheat_1905_colder <- function(station_number) {
-  print("The LINTUL2 model takes about 20 minutes to run for three locations")
+  print("Running part of the LINTUL2 model for the colder years of wheat locations 1, 2 and 3. This part creates output for the years 1900 - 1905. Running can take up to 3 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -273,7 +273,7 @@ run_simulation_breadwheat_1905_colder <- function(station_number) {
 
 
 run_simulation_breadwheat_2013_colder <- function(station_number) {
-  print("The LINTUL2 model takes about 20 minutes to run for three locations")
+  print("Running part of the LINTUL2 model for the colder years of wheat locations 1, 2 and 3. This part creates output for the years 1906 - 2013. Running can take up to 15 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -319,7 +319,7 @@ run_simulation_breadwheat_2013_colder <- function(station_number) {
 
 
 run_simulation_durum_1899_colder <- function(station_number) {
-  print("The LINTUL2 model takes about 15 minutes to run for two locations")
+  print("Running part of the LINTUL2 model for the colder years of durum locations 4 and 5. This part creates output for the years 1850 - 1899. Running can take up to 8 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -363,7 +363,7 @@ run_simulation_durum_1899_colder <- function(station_number) {
 }
 
 run_simulation_durum_1905_colder <- function(station_number) {
-  print("The LINTUL2 model takes about 15 minutes to run for two locations")
+  print("Running part of the LINTUL2 model for the colder years of durum locations 4 and 5. This part creates output for the years 1900 - 1905. Running can take up to 3 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -407,7 +407,7 @@ run_simulation_durum_1905_colder <- function(station_number) {
 }
 
 run_simulation_durum_2013_colder <- function(station_number) {
-  print("The LINTUL2 model takes about 15 minutes to run for two locations")
+  print("Running part of the LINTUL2 model for the colder years of durum locations 4 and 5. This part creates output for the years 1906 - 2013. Running can take up to 15 minutes.")
   # Load necessary libraries
   library(deSolve)
   
@@ -456,7 +456,7 @@ run_simulation_durum_2013_colder <- function(station_number) {
 
 
 run_simulation_dummy_temp <- function(station_number) {
-  print("The LINTUL2 model takes about 1 minute to run for the dummy data")
+  print("The LINTUL2 model takes about 3 minutes to run for the dummy data for temperature")
   # Load necessary libraries
   library(deSolve)
   
@@ -500,7 +500,7 @@ run_simulation_dummy_temp <- function(station_number) {
 }
 
 run_simulation_dummy_precip <- function(station_number) {
-  print("The LINTUL2 model takes about 1 minute to run for the dummy data")
+  print("The LINTUL2 model takes about 3 minutes to run for the dummy data for precipitation")
   # Load necessary libraries
   library(deSolve)
   
