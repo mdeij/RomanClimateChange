@@ -1,5 +1,5 @@
 split_wheat <- function(wheat_data, current_loc) {
-  print("This function can take up to 5 minutes to run.")
+  print(paste("Currently creating yearly files for wheat ", current_loc))
   # Accessing the second column by its position to find the 'year' column
   year_col <- wheat_data[, 2]  
   
@@ -15,7 +15,7 @@ split_wheat <- function(wheat_data, current_loc) {
 }
 
 split_grapes <- function(grapes_data, current_loc) {
-  print("This function can take up to 5 minutes to run.")
+  print(paste("Currently creating yearly files for grapes ", current_loc))
   # Assign column names to grapes_data
   colnames(grapes_data) <- c("StationNumber", "Year", "Day", "Month", "DayOfMonth", "JulianDay", "Irradiation", "MinTemperature", "MaxTemperature", "VapourPressure", "MeanWindSpeed", "Precipitation")
   
@@ -34,7 +34,7 @@ split_grapes <- function(grapes_data, current_loc) {
 
 
 split_colder_wheat <- function(wheat_data, current_loc) {
-  print("This function can take up to 5 minutes to run.")
+  print(paste("Currently creating yearly files for the colder data for wheat ", current_loc))
   # Accessing the second column by its position to find the 'year' column
   year_col <- wheat_data[, 2]  
   
@@ -52,7 +52,7 @@ split_colder_wheat <- function(wheat_data, current_loc) {
 
 
 split_colder_grapes <- function(grapes_data, current_loc) {
-  print("This function can take up to 5 minutes to run.")
+  print(paste("Currently creating yearly files for the colder data for grapes ", current_loc))
   # Assign column names to grapes_data
   colnames(grapes_data) <- c("StationNumber", "Year", "Day", "Month", "DayOfMonth", "JulianDay", "Irradiation", "MinTemperature", "MaxTemperature", "VapourPressure", "MeanWindSpeed", "Precipitation")
   
